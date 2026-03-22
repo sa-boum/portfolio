@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safaa Boumour | Ingénieure en Génie Informatique</title>
+    <meta name="description"
+        content="Portfolio de Safaa Boumour, étudiante en 2ème année du cycle d'ingénieur en Génie Informatique à l'EHTP, spécialisée en IA et Développement Logiciel.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="background-radial"></div>
+
+    <header id="header">
+        <nav id="navbar">
+            <div class="logo"><i class="fas fa-circle-nodes"></i> SAFAA</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#exp-edu">Expérience & Formations</a></li>
+                <li><a href="#projets">Portfolio</a></li>
+                <li><a href="#skills-certs">Compétences & Certifications</a></li>
+                <li><a href="#parascolaire">Parascolaire</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <p class="hero-subtitle slide-up">Bonjour, Je suis</p>
+                    <h1 class="fade-in">Safaa <span class="accent">Boumour</span></h1>
+                    <p class="fade-in-delay-2">Actuellement étudiante en 2<sup>ème</sup> année du cycle ingénieur à
+                        l'EHTP, je me spécialise en informatique avec un fort intérêt pour le Software Engineering et
+                        l'IA. Passionnée par la résolution de problèmes complexes.</p>
+                    <div class="hero-btns fade-in-delay-2">
+                        <a href="#contact" class="btn-primary">Contactez-moi</a>
+                        <a href="CV_Boumour_Safaa.pdf" download="CV_Boumour_Safaa.pdf" class="btn-secondary"
+                            target="_blank">Télécharger CV</a>
+                    </div>
+                </div>
+                <div class="hero-img-container fade-in">
+                    <div class="blob-container">
+                        <div class="blob-1"></div>
+                        <div class="blob-2"></div>
+                    </div>
+                    <img src="o.png" alt="Safaa Boumour" class="hero-portrait">
+                </div>
+            </div>
+        </section>
+
+        <section class="quote-section section-light reveal">
+            <div class="quote-container">
+                <h2>"Je m'épanouis dans le processus de résolution de problèmes avec des solutions propres et
+                    évolutives. Gagner en expertise chaque jour est ma priorité."</h2>
+            </div>
+        </section>
+
+        <!-- Section Expérience & Formations -->
+        <section id="exp-edu" class="section">
+            <div class="container">
+                <h2 class="section-title-alt">Expérience Professionnelle et Formation</h2>
+
+                <div class="toggle-container">
+                    <div class="toggle-group" id="exp-edu-toggle">
+                        <button class="toggle-btn active" data-target="experiences">Expériences</button>
+                        <button class="toggle-btn" data-target="formations">Formation</button>
+                    </div>
+                </div>
+
+                <div class="tab-content active" id="experiences">
+                    <div class="experience-card-alt reveal">
+                        <div class="card-logo">
+                            <img src="logo5.jpg" alt="AIAC Logo">
+                        </div>
+                        <div class="card-info">
+                            <h3>Stagiaire en Intelligence Artificielle</h3>
+                            <p class="card-subtitle">Likana Communication | Rabat, Maroc | Août 2025 - Sept 2025</p>
+                            <p class="card-desc">Analyse comparative de LLMs multilingues, automatisation d'évaluation
+                                via scripts Python.</p>
+                            <div class="card-tags">
+                                <span>Python</span>
+                                <span>LLMs</span>
+                                <span>Google Colab</span>
+                                <span>Hugging Face</span>
+                                <span>LM Studio</span>
+                            </div>
+                            <div class="card-docs">
+                                <a href="Boumour_Internship_Report.pdf" target="_blank" class="doc-link">
+                                    <i class="fas fa-file-pdf"></i> Rapport de stage
+                                </a>
+                                <a href="Attestation de stage .jpg" target="_blank" class="doc-link">
+                                    <i class="fas fa-certificate"></i> Attestation de stage
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tab-content" id="formations">
+                    <div class="experience-card-alt reveal">
+                        <div class="card-logo">
+                            <img src="EHTP_logo.jpg" alt="EHTP Logo">
+                        </div>
+                        <div class="card-info">
+                            <h3>Cycle d'ingénieur en filière Computer science</h3>
+                            <p class="card-subtitle">École Hassania des Travaux Publics (EHTP) | 2024 - Présent </p>
+                            <p class="card-desc">Java, Cloud Computing, Docker & Git, Software Design, Design Patterns,
+                                Database Administration (Oracle, NoSQL), Data Engineering, IA, Cyber security</p>
+                            <div class="card-tags">
+                                <span>Software Engineering</span>
+                                <span>Cloud Computing</span>
+                                <span>Data Engineering</span>
+                                <span>IA</span>
+                                <span>Cyber security</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-card-alt reveal">
+                        <div class="card-logo">
+                            <img src="Aiac_logo.jpg" alt="AIAC Logo">
+                        </div>
+                        <div class="card-info">
+                            <h3>Cycle d'ingénieur en filière Génie Industriel</h3>
+                            <p class="card-subtitle">AIAC (Aviation Civile) | 2023 - 2024 </p>
+                            <p class="card-desc">Électronique, RDM, Algorithmique (C, C++), Thermodynamique, Gestion,
+                                Comptabilité et Fiscalité.</p>
+                            <div class="card-tags">
+                                <span>Electronique </span>
+                                <span>C/C++</span>
+                                <span>Gestion & Finance</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-card-alt reveal">
+                        <div class="card-logo">
+                            <img src="Ltm_logo.jpg" alt="LTM Logo">
+                        </div>
+                        <div class="card-info">
+                            <h3>Classe Préparatoire en filière MP</h3>
+                            <p class="card-subtitle">Lycée Technique de Mohammedia (LTM) | 2021 - 2023 </p>
+                            <p class="card-desc">Cours intensifs en Mathématiques, Physique et Informatique.
+                                Introduction à l'Intelligence Artificielle.</p>
+                            <div class="card-tags">
+                                <span>Mathématiques</span>
+                                <span>Physique</span>
+                                <span>Informatique</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-card-alt reveal">
+                        <div class="card-logo">
+                            <img src="Fat.jpg" alt=" Logo">
+                        </div>
+                        <div class="card-info">
+                            <h3>Baccalauréat en Sciences Physiques - Mention Très Bien</h3>
+                            <p class="card-subtitle">Lycée Fatima Ezzahra | 2020 - 2021 </p>
+                            <p class="card-desc">Formation scientifique rigoureuse axée sur la physique et la chimie.
+                            </p>
+                            <div class="card-tags">
+                                <span>Mathématiques </span>
+                                <span>Physique-Chimie</span>
+                                <span>Sciences Naturelles</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Portfolio -->
+        <section id="projets" class="section section-light">
+            <div class="container">
+                <h2 class="section-title-alt" style="color: var(--text-dark);">Portfolio Académique</h2>
+                <div class="projects-grid-alt">
+                    <!-- Projet 1 -->
+                    <div class="project-card-alt reveal">
+                        <div class="project-img-alt">
+                            <img src="j.jpg" alt="JEU">
+                        </div>
+                        <div class="project-content-alt">
+                            <h3>Jeu de Moulin (Nine Men's Morris)</h3>
+                            <p>Implémentation complète du jeu de stratégie Moulin avec une interface web interactive.
+                                Jouez en ligne directement via votre navigateur.</p>
+                            <div class="project-tags-alt">
+                                <span>C</span>
+                                <span>IA Avancée</span>
+                                <span>SDL</span>
+                                <span>MCD</span>
+                            </div>
+                            <div class="project-links-alt">
+                                <a href="https://github.com/sa-boum/nine-mens-morris" target="_blank"
+                                    class="github-btn-alt">
+                                    <i class="fab fa-github"></i> Voir sur GitHub
+                                </a>
+                                <a href="https://sa-boum.github.io/nine-mens-morris/" target="_blank"
+                                    class="demo-btn-alt">
+                                    <i class="fas fa-external-link-alt"></i> Demo Live
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet 2 -->
+                    <div class="project-card-alt reveal">
+                        <div class="project-img-alt">
+                            <i class="fab fa-docker"></i>
+                        </div>
+                        <div class="project-content-alt">
+                            <h3>Déploiement Services Réseau Docker</h3>
+                            <p>Automatisation du déploiement de services réseau critiques (DNS, DHCP, Web, FTP)
+                                utilisant Docker pour une infrastructure isolée et sécurisée.</p>
+                            <div class="project-tags-alt">
+                                <span>Docker</span>
+                                <span>Networking</span>
+                                <span>Automatisation</span>
+                                <span>Docker Compose</span>
+                            </div>
+                            <div class="project-links-alt">
+                                <a href="https://github.com/sa-boum/network-services-deployment" target="_blank"
+                                    class="github-btn-alt">
+                                    <i class="fab fa-github"></i> Voir sur GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Compétences & Certifications -->
+        <section id="skills-certs" class="section">
+            <div class="container">
+                <h2 class="section-title-alt">Compétences et Certifications</h2>
+
+                <div class="toggle-container">
+                    <div class="toggle-group" id="skills-certs-toggle">
+                        <button class="toggle-btn active" data-target="competences">Compétences</button>
+                        <button class="toggle-btn" data-target="certifications-tab">Certifications</button>
+                    </div>
+                </div>
+
+                <div class="tab-content active" id="competences">
+                    <div class="filter-group">
+                        <button class="filter-btn active" data-filter="all">Toutes</button>
+                        <button class="filter-btn" data-filter="ds">Data Science</button>
+                        <button class="filter-btn" data-filter="lang">Langages</button>
+                        <button class="filter-btn" data-filter="web">Technologies Web</button>
+                        <button class="filter-btn" data-filter="db">Base de Données</button>
+                        <button class="filter-btn" data-filter="tools">Outils</button>
+                    </div>
+
+                    <div class="skills-bars-grid">
+                        <div class="skill-item reveal" data-category="ds">
+                            <div class="skill-info">
+                                <span>Machine Learning</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item reveal" data-category="ds">
+                            <div class="skill-info">
+                                <span>Pandas</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item reveal" data-category="ds">
+                            <div class="skill-info">
+                                <span>Scikit-learn</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item reveal" data-category="ds">
+                            <div class="skill-info">
+                                <span>TensorFlow</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item reveal" data-category="lang">
+                            <div class="skill-info">
+                                <span>Java</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item reveal" data-category="lang">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item reveal" data-category="lang">
+                            <div class="skill-info">
+                                <span>C</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item reveal" data-category="lang">
+                            <div class="skill-info">
+                                <span>C++</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 90%;"></div>
+                            </div>
+
+                        </div>
+                        <div class="skill-item reveal" data-category="lang">
+                            <div class="skill-info">
+                                <span>Assembleur</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%;"></div>
+                            </div>
+
+                        </div>
+                        <div class="skill-item reveal" data-category="web">
+                            <div class="skill-info">
+                                <span>HTML/CSS</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item reveal" data-category="db">
+                            <div class="skill-info">
+                                <span>SQL / NoSQL</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="certifications-tab">
+                    <div class="certs-grid">
+                        <div class="cert-item reveal">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h3>Agile Scrum Master</h3>
+                                <p>Simplilearn SkillUp | 2025</p>
+                            </div>
+                        </div>
+                        <div class="cert-item reveal">
+                            <i class="fas fa-medal"></i>
+                            <div>
+                                <h3>Développement Web</h3>
+                                <p>GOMYCODE | 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="parascolaire" class="section section-light">
+            <div class="container">
+                <h2 class="section-title">Vie Parascolaire</h2>
+                <div class="para-grid">
+                    <div class="para-card reveal">
+                        <i class="fas fa-users-viewfinder"></i>
+                        <h3>Chef de cellule formation</h3>
+                        <h4>Hassania IT Club</h4>
+                        <p>Organisation de sessions de formation hebdomadaires et création de contenus éducatifs pour
+                            les étudiants.</p>
+                    </div>
+                    <div class="para-card reveal">
+                        <i class="fas fa-microphone-alt"></i>
+                        <h3>Débatteuse</h3>
+                        <h4>Club Great Debaters</h4>
+                        <p>Participation active aux débats et activités linguistiques au sein de la section française.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="languages" class="section">
+            <div class="container">
+                <h2 class="section-title">Langues</h2>
+                <div class="lang-grid">
+                    <div class="lang-item reveal">
+                        <span class="lang-name">Français</span>
+                        <div class="lang-bar">
+                            <div class="lang-fill" style="width: 85%;"></div>
+                        </div>
+                        <span class="lang-level">Courant (B2)</span>
+                    </div>
+                    <div class="lang-item reveal">
+                        <span class="lang-name">Anglais</span>
+                        <div class="lang-bar">
+                            <div class="lang-fill" style="width: 70%;"></div>
+                        </div>
+                        <span class="lang-level">Intermédiaire</span>
+                    </div>
+                    <div class="lang-item reveal">
+                        <span class="lang-name">Arabe</span>
+                        <div class="lang-bar">
+                            <div class="lang-fill" style="width: 100%;"></div>
+                        </div>
+                        <span class="lang-level">Langue Maternelle</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section section-light">
+            <div class="container">
+                <h2 class="section-title">Contactez-moi</h2>
+                <div class="contact-content">
+                    <div class="contact-info reveal">
+                        <p>Intéressé(e) par mon profil ? N'hésitez pas à me contacter pour discuter de vos projets ou
+                            d'opportunités de collaboration.</p>
+                        <div class="contact-details">
+                            <div class="detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>safaa.boumour1@gmail.com</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+212 634703006</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Casablanca, Maroc</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form reveal">
+                        <div class="form-group">
+                            <input type="text" placeholder="Votre Nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Votre Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Votre Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Envoyer Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Safaa Boumour. Réalisé avec <i class="fas fa-heart"></i></p>
+            <div class="footer-links">
+                <a href="https://github.com/sa-boum" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/safaa-boumour" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
