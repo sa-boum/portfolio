@@ -527,13 +527,21 @@ nav {
     overflow: hidden;
 }
 
-.project-img-alt i {
+.project-img-alt i, 
+.project-img-alt img {
     z-index: 2;
     transition: 0.5s;
 }
 
-.project-card-alt:hover .project-img-alt i {
-    transform: scale(1.1) rotate(5deg);
+.project-img-alt img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-card-alt:hover .project-img-alt i,
+.project-card-alt:hover .project-img-alt img {
+    transform: scale(1.1) rotate(3deg);
 }
 
 .project-content-alt {
@@ -668,6 +676,25 @@ nav {
     color: var(--primary);
 }
 
+.btn-cert {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1.2rem;
+    background: var(--secondary);
+    color: var(--bg-dark) !important;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    transition: var(--transition);
+}
+
+.btn-cert:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(251, 191, 36, 0.2);
+}
+
 /* Education */
 .education-list {
     max-width: 800px;
@@ -708,18 +735,61 @@ nav {
 .para-card {
     text-align: center;
     background: var(--glass-bg);
-    padding: 3rem;
-    border-radius: 30px;
+    padding: 1.5rem;
+    border-radius: 20px;
     border: 1px solid var(--glass-border);
 }
 
-.para-card i {
-    font-size: 3rem;
-    background: linear-gradient(var(--primary), var(--secondary));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 2rem;
+.para-card i, .para-img {
+    margin-bottom: 1rem;
+}
+
+.para-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: contain;
+    transition: var(--transition);
+}
+
+.para-img:hover {
+    transform: scale(1.05);
+}
+
+.para-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.insta-link {
+    display: inline-flex;
+    flex-direction: row; /* Force horizontal alignment */
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background: var(--primary); /* Use your primary teal color #2D8E94 */
+    color: white !important;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 50px;
+    transition: var(--transition);
+    white-space: nowrap;
+}
+
+.insta-link i {
+    font-size: 1rem;
+    margin-bottom: 0 !important; /* Ensure no inherited margin is pushing it up */
+}
+
+.insta-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(45, 142, 148, 0.3);
 }
 
 .para-card h3 {
